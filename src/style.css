@@ -2,20 +2,18 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
 }
 
 :root {
   --color-blue: #00acdc;
 }
 
-body {
-  font-family: Roboto, sans-serif;
-  font-weight: 500;
-}
-
 .header {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   padding: 0 50px;
   background-color: #fff;
 }
@@ -28,21 +26,13 @@ body {
   display: block;
 }
 
-.menu {
-  margin-left: 50px;
-}
-
 .menu-list {
   display: flex;
-  flex-direction: row;
-}
-
-.menu-item {
   list-style: none;
 }
 
 .menu-item:not(:last-child) {
-  margin-right: 30px;
+  margin-right: 20px;
 }
 
 .menu-link {
